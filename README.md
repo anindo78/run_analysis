@@ -1,22 +1,11 @@
 # run_analysis
 Coursera: Getting and Cleaning Data Course Project
 
-1) First create a directory for the course project and download all data. "data quiz2" directory to store files
-2) Create path to read all files. 
-3) Read all the test files i.e. *test.txt files. X_test, y_test and subject_test.txt and assign labels
-4) Read Activity File and assign labels on name of activity (nameact) and type of activity (label) merge with Lables from y_test.txt
+The code was run from my laptop for which I had to create a separate directory quiz3data for this purpose. I downloaded all data into this directory and unzipped them later.
 
-5) Read feature.txt file and save data in "feat" 
-
-6) Repeat step #3 to Read all training files
-
-7) Now combine all into one dataset (overall) and assign labels to the dataset
-  This requires using the feat dataset to assign colnames
-  
-8) Extract only mean and std from the overall dataset name it "featmeanstd"
-
-9) Mutate a new group by variable "groupby" to combine "nameact" and "label"
-10) Summarize the data by the groupby variable and compute means.
+1) The Codebook.md describes the steps 
+2) The run_analysis.R describes the code with comments
+2) The final_data.txt file is the final average for all values by subject and activity
 
 
 
